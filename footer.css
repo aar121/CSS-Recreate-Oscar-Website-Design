@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signup {
+    background-color: bisque;
+}
+.oscar {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftsocials {
+    width: 21%;
+}
+.Questions {
+    text-align: right;
+}
+.links {
+    height: 10vh;
+    background-color: black;
+}
