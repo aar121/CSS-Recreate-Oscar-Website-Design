@@ -11,22 +11,51 @@ footer section {
     background-color: bisque;
 }
 .oscar {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     color: white;
     border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
 }
 .social-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.leftsocials {
-    width: 21%;
 }
 .Questions {
     text-align: right;
 }
+.questions1 {
+    text-align: right;
+    list-style: none;
+}
+    
 .links {
     height: 10vh;
     background-color: black;
+}
+li {
+    margin: 10px 0;
+    list-style: none;
+    padding: 0;
+}
+@media (max-wdith: 800px) {
+    .social-links {
+        flex-direction: column;
+        margin: 20px 16px 0 0;
+}
+    }
+nav {
+    display: block;
+}
+.bottom-stuff {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    background-color: black;
+    color: white;
 }
